@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": "Manage Pricing Plans"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "priceStudent": {
+      "type": "integer",
+      "required": true,
+      "default": 35
+    },
+    "priceSingle": {
+      "type": "integer",
+      "required": true,
+      "default": 99
+    },
+    "priceCouple": {
+      "type": "integer",
+      "required": true,
+      "default": 149
+    },
+    "addonImmobilie": {
+      "type": "integer",
+      "required": true,
+      "default": 65
+    }
+  }
+}
