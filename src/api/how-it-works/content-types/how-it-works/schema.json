@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_it_works",
+  "info": {
+    "singularName": "how-it-works",
+    "pluralName": "how-it-workses",
+    "displayName": "How It Works",
+    "description": "Manage the How It Works section"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Wie es funktioniert – In 3 Schritten zu entspannten Finanzen"
+    },
+    "step1Title": {
+      "type": "string"
+    },
+    "step1Desc": {
+      "type": "text"
+    },
+    "step2Title": {
+      "type": "string"
+    },
+    "step2Desc": {
+      "type": "text"
+    },
+    "step3Title": {
+      "type": "string"
+    },
+    "step3Desc": {
+      "type": "text"
+    }
+  }
+}
