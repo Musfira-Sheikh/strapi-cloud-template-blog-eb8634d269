@@ -48,6 +48,12 @@
       "multiple": false,
       "required": false,
       "allowedTypes": ["images", "files", "videos"]
+    },
+    "heroChecklistText": {
+      "type": "text"
+    },
+    "trustLine": {
+      "type": "string"
     }
   }
 }
