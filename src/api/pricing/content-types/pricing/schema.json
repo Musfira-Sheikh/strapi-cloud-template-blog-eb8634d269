@@ -31,6 +31,33 @@
       "type": "integer",
       "required": true,
       "default": 65
+    },
+    "tagStudent": {
+      "type": "string"
+    },
+    "descStudent": {
+      "type": "text"
+    },
+    "tagSingle": {
+      "type": "string"
+    },
+    "descSingle": {
+      "type": "text"
+    },
+    "tagCouple": {
+      "type": "string"
+    },
+    "descCouple": {
+      "type": "text"
+    },
+    "addonText1": {
+      "type": "text"
+    },
+    "addonText2": {
+      "type": "text"
+    },
+    "pricingSlogan": {
+      "type": "text"
     }
   }
 }
