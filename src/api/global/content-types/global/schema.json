@@ -54,6 +54,12 @@
     },
     "trustLine": {
       "type": "string"
+    },
+    "heroHeading": {
+      "type": "text"
+    },
+    "heroEyebrow": {
+      "type": "string"
     }
   }
 }
